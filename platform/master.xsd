@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:annox="http://annox.dev.java.net" xmlns:orm="http://java.sun.com/xml/ns/persistence/orm" xmlns:spl="http://splicer.io" xmlns:splicer="http://splicer.models" xmlns:sports="http://sports.models" xmlns:tns="http://models/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://models/" version="1.0">
     <!--  Splicer/Jumbo Inc. confidential  -->
-    <!--  testing workflow 6  -->
+    <!--  testing workflow 7  -->
     <xs:complexType name="splicerLogin">
         <xs:annotation>
             <xs:appinfo>
