@@ -6,6 +6,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="customers"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -67,6 +68,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="orders"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -232,6 +234,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="employees"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -295,6 +298,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="purchase_orders"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -368,6 +372,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="inventory_transactions"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -433,6 +438,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="inventory_transaction_types"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -463,6 +469,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="products"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -533,6 +540,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="order_details"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -582,6 +590,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="order_details_status"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -612,6 +621,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="purchase_order_details"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -661,6 +671,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="purchase_order_status"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -691,6 +702,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="suppliers"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -737,6 +749,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="invoices"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -771,6 +784,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="order_status"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -807,6 +821,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="order_tax_status"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -843,6 +858,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="shippers"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -895,6 +911,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="splicerLogin"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>

@@ -6,6 +6,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="splicer_login"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>

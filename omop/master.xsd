@@ -4,6 +4,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="person"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -199,6 +200,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="care_site"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -256,6 +258,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="concept"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -904,6 +907,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="cohort_attribute"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -922,6 +926,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="cohortAttributeId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -969,6 +974,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="attribute_definition"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -999,6 +1005,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="cohort_definition"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1044,6 +1051,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="cohort"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1062,6 +1070,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="cohortId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1094,6 +1103,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="concept_ancestor"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1114,6 +1124,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="conceptAncestorId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1150,6 +1161,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="concept_class"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1184,6 +1196,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="concept_relationship"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1205,6 +1218,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="conceptRelationshipId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1248,6 +1262,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="relationship"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1298,6 +1313,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="concept_synonym"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1316,6 +1332,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="conceptSynonymId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1347,6 +1364,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="condition_era"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1383,6 +1401,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="condition_occurrence"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1458,6 +1477,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="provider"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1582,6 +1602,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="device_exposure"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1650,6 +1671,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="visit_occurrence"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1793,6 +1815,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="drug_exposure"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1882,6 +1905,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="measurement"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -1972,6 +1996,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="note"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2044,6 +2069,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="observation"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2133,6 +2159,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="procedure_occurrence"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2206,6 +2233,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="cost"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2282,6 +2310,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="payer_plan_period"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2320,6 +2349,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="death"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2338,6 +2368,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="deathId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2391,6 +2422,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="domain"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2425,6 +2457,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="dose_era"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2468,6 +2501,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="drug_era"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2505,6 +2539,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="drug_strength"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2550,6 +2585,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="drugStrengthId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2586,6 +2622,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="fact_relationship"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2604,6 +2641,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="factRelationshipId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2647,6 +2685,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="observation_period"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2682,6 +2721,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="source_to_concept_map"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2711,6 +2751,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="sourceToConceptMapId"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2749,6 +2790,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="vocabulary"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2799,6 +2841,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="specimen"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2868,6 +2911,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table xmlns:ha="http://annox.dev.java.net/org.hibernate.annotations" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:pxml="https://github.com/ilyakharlamov/pure-xsl/parseStringAsXML" name="location"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
@@ -2909,6 +2953,7 @@
             <xs:appinfo>
                 <spl:entity>
                     <orm:table name="splicerLogin"/>
+                    <spl:service include="default"/>
                 </spl:entity>
             </xs:appinfo>
         </xs:annotation>
